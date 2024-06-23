@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+::-webkit-scrollbar {
+  width: 0.1em;
+  background-color: $clr-primary;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  filter: sepia(0.5) grayscale(0.2) brightness(0.8) blur(0.4px);
+}
+
+body {
+  background-color: $clr-bg;
+  color: $clr-primary;
+  font-family: $ff-main;
+  font-size: $fs-300;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+// General Styles
+
+.container {
+  margin: 0 auto;
+  padding-inline: 1rem;
+  max-width: 1032px;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
