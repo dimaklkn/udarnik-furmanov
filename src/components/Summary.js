@@ -13,7 +13,7 @@ const Summary = () => {
       <VKShareButton
         url={"https://udarnik-furmanov.netlify.app/"}
         quote={"События прошлого в фурмановской газете Ударник"}
-        hashtag="#Ударник-Фурмнов"
+        hashtag="#Ударник-Фурманов"
         className="summary__share-button"
       >
         <VKIcon size={24} round={true} />
