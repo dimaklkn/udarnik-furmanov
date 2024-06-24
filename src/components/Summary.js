@@ -11,9 +11,9 @@ const Summary = () => {
       <h1>{year} год</h1>
       <p>Событий и фактов в номере: {events.length}</p>
       <VKShareButton
-        url={"https://www.example.com"}
-        quote={"Dummy text"}
-        hashtag="#exampleHashtag"
+        url={"https://udarnik-furmanov.netlify.app/"}
+        quote={"События прошлого в фурмановской газете Ударник"}
+        hashtag="#Ударник-Фурмнов"
         className="summary__share-button"
       >
         <VKIcon size={24} round={true} />
